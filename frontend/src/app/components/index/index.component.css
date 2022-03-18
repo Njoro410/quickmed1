@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body,
+html {
+  scroll-behavior: smooth;
+  font-family: 'Acme', sans-serif;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.navbar-brand {
+    font-weight: bolder;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.nav-item {
+    font-weight: bold;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+#brian {
+  color: #0e927e;
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+}
+
+.content {
+  font-family: 'Caveat Brush', cursive;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.title {
+  color: #0e927e;
+}
+
+.text1 {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  line-height: 1em;
+  text-transform: uppercase;
+  padding-top: 120px;
+  font-family: 'Fredoka One', cursive;
+
+}
+
+.text2 {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #6C63FF;
+    line-height: 1em;
+    text-transform: uppercase;
+    padding-top: 120px;
+    font-family: 'Fredoka One', cursive;
+  
+  }
+
+  .text3 {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #564FCC;
+    line-height: 1em;
+    text-transform: uppercase;
+    padding-top: 120px;
+    font-family: 'Fredoka One', cursive;
+  
+  }
+   .custom-shape-divider-top-1647574862 {
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+} 
+
+.custom-shape-divider-top-1647574862 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1647574862 .shape-fill {
+    fill: #FFFFFF;
+} 
+.wave2 {
+  position: absolute;
+  top: 1;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+} 
+
+.wave2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave2 .shape-fill {
+  fill: #564FCC;
+} 
+#about {
+  background-image: linear-gradient(to top, #564fcc, #5b54d9, #6159e5, #665ef2, #6c63ff);
+  
+}
+#words {
+  margin-top: 150px;
+}
+#words h3 {
+  color: #fff;
+  text-align: center;
+}
+#words p {
+  color: #fff;
+}
+.head {
+  color: #6c63ff;
+}
+.info {
+  text-align: center;
+  color: #22204b;
+}
+#land {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}

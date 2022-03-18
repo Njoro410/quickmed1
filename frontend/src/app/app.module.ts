@@ -6,25 +6,32 @@ import { AppComponent } from './app.component';
 import { IndexComponent } from './components/index/index.component';
 import { RegisterComponent } from './components/register/register.component';
 import { MedicineComponent } from './components/medicine/medicine.component';
-import { CheckoutComponent } from './checkout/checkout.component';
 import { SuccessComponent } from './components/success/success.component';
 import { LoginComponent } from './components/login/login.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
+import { GetmedicineService } from './getmedicine.service';
+import { HttpClientModule } from '@angular/common/http';
+import { PrescriptionComponent } from './components/prescription/prescription.component';
+import { OTCComponent } from './components/otc/otc.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MedicineComponent,
-    CheckoutComponent,
     SuccessComponent,
     LoginComponent,
     RegisterComponent,
-    IndexComponent
+    IndexComponent,
+    CheckoutComponent,
+    PrescriptionComponent,
+    OTCComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [GetmedicineService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

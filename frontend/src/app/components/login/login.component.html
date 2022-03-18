@@ -1,1 +1,55 @@
-<p>login works!</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">QuickMed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top: 85px;">
+        <div class="row">
+            <div class="col-sm-12">
+                <form method="POST">
+ 
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="Email" name="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Password</label>
+                        <input type="text" class="form-control" id="password" name="Password" required>
+                    </div>
+
+    
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3">Login</button>
+                    </div>
+    
+    
+    
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
